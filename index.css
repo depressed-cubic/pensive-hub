@@ -3,12 +3,12 @@
     color: rgb(48, 48, 48);
 }
 
-:link {
+.tab > :link{
     color: inherit;
     text-decoration: inherit;
 }
 
-:visited {
+.tab > :visited{
     color: inherit;
     text-decoration: inherit;
 }
@@ -53,6 +53,8 @@ body {
 
 .content {
     padding: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .pages {
@@ -76,8 +78,11 @@ body {
 
 .card-image {
     height: 70%;
+    width: 100%;
+    background-color: grey;
 }
 
 .card-title {
     font-size: 125%;
+    padding: 0.5em;
 }
