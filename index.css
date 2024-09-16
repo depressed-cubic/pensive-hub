@@ -1,5 +1,16 @@
 :root {
     font-family: sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+:link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+:visited {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 body {
@@ -13,7 +24,7 @@ body {
     width: 100% - 1em;
     display: flex;
     flex-direction: row;
-    background-color: rgb(228, 202, 255);
+    background-color: rgb(215, 177, 255);
     padding: 0.5em;
     margin: 0;
     justify-content: center;
@@ -59,6 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1pt, solid, black;
+    border-radius: 2pt;
     align-items: center;
 }
 
@@ -67,5 +79,5 @@ body {
 }
 
 .card-title {
-    font-size: large;
+    font-size: 125%;
 }
