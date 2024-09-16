@@ -13,22 +13,29 @@ body {
     width: 100vw - 1em;
     display: flex;
     flex-direction: row;
-    background-color: rgb(227, 135, 255);
+    background-color: rgb(228, 202, 255);
     padding: 0.5em;
     margin: 0;
     justify-content: center;
+    position: sticky;
+    top: 0;
 }
 
 .tab {
     display: flex;
     align-items: center;
     margin: 0.5em;
+    border: 0.2em, solid, rgb(199, 151, 250);
+    padding: 1em;
+    border-radius: 0.5em;
 }
 
 .logo {
     width: 3em;
 }
 
-.content {
+.banner {
     padding: 1em;
+    background-color: rgb(202, 241, 255);
+    text-align: center;
 }
