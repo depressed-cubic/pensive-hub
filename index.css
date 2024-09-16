@@ -1,0 +1,34 @@
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.nav-bar {
+    height: 3em;
+    width: 100vw - 1em;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(227, 135, 255);
+    padding: 0.5em;
+    margin: 0;
+    justify-content: center;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.logo {
+    width: 3em;
+}
+
+.content {
+    padding: 1em;
+}
