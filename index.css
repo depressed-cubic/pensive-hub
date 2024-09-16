@@ -10,7 +10,7 @@ body {
 
 .nav-bar {
     height: 3em;
-    width: 100vw - 1em;
+    width: 100% - 1em;
     display: flex;
     flex-direction: row;
     background-color: rgb(228, 202, 255);
@@ -38,4 +38,34 @@ body {
     padding: 1em;
     background-color: rgb(202, 241, 255);
     text-align: center;
+}
+
+.content {
+    padding: 5%;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card {
+    height: 15em;
+    width: 15em;
+
+    display: flex;
+    flex-direction: column;
+    border: 1pt, solid, black;
+    align-items: center;
+}
+
+.card-image {
+    height: 70%;
+}
+
+.card-title {
+    font-size: large;
 }
