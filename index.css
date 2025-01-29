@@ -39,6 +39,7 @@ body {
     border: 0.2em, solid, rgb(199, 151, 250);
     padding: 1em;
     border-radius: 0.5em;
+    transition: all 0.1s ease-in-out;
 }
 
 .logo {
@@ -68,9 +69,8 @@ body {
 .project {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 2em;
+    align-items: center;
 }
 
 .card {
@@ -82,6 +82,17 @@ body {
     border: 1pt, solid, black;
     border-radius: 2pt;
     align-items: center;
+    margin: 2em;
+    
+    transition: all 0.25s ease-in-out;
+}
+
+
+.card:hover {
+    height: 17em;
+    width: 17em;
+    margin: 1em 2em 1em 2em;
+    box-shadow: 0.25em 0.25em 0.25em gray;
 }
 
 .card-image {
@@ -93,4 +104,10 @@ body {
 .card-title {
     font-size: 125%;
     padding: 0.5em;
+}
+
+.nav-bar > .tab:hover {
+    margin: 0.25em 0em;
+    padding: 1.25em 1.5em;
+    box-shadow: 0em 0em 0.25em rgb(0, 0, 0);
 }
